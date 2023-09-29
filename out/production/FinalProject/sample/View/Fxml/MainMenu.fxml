@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenuController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/backGround.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/bloodCell.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="954.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/covidGreen2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="924.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/covidGreen.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="6.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/bloodCell2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="start_a_new_game_button" contentDisplay="BOTTOM" layoutX="473.0" layoutY="525.0" mnemonicParsing="false" onAction="#startNewGame" text="Start New Game" textAlignment="CENTER" textFill="#951dcf">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="high_score_button" layoutX="495.0" layoutY="575.0" mnemonicParsing="false" onAction="#highScore" text="High Score" textFill="#951dcf">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit_game_button" layoutX="499.0" layoutY="626.0" mnemonicParsing="false" onAction="#exit" text="Exit Game" textFill="#951dcf">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="453.0" fitWidth="568.0" layoutX="310.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/gouardsVsHunters.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="77.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/bloodCell.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="6.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/bloodCell.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="890.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/covidGreen2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="948.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/covidGreen2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

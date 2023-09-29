@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HardGameController">
+   <children>
+       <Rectangle arcHeight="5.0" arcWidth="5.0" height="400.0" stroke="#1290b5" strokeType="INSIDE" strokeWidth="30.0" width="600.0" />
+      <Button fx:id="continue_game_button" layoutX="252.0" layoutY="80.0" mnemonicParsing="false" onAction="#continueGame" text="Continue" textFill="#025afc">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="exit_game_button" layoutX="274.0" layoutY="181.0" mnemonicParsing="false" onAction="#exit" text="Exit" textFill="#025afc">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

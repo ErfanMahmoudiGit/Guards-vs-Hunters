@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EndingWindowController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#575dff" height="700.0" stroke="BLACK" strokeType="INSIDE" width="1100.0" />
+      <ImageView fitHeight="509.0" fitWidth="763.0" layoutX="211.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/gameOver.png" />
+         </image>
+      </ImageView>
+       <Button fx:id="exit_game_button" layoutX="498.0" layoutY="577.0" mnemonicParsing="false" onAction="#exit" text="Exit Game" textFill="#951dcf">
+           <font>
+               <Font size="18.0" />
+           </font>
+       </Button>
+      <Label fx:id="score_label" layoutX="380.0" layoutY="360.0" textFill="#802a2a">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
