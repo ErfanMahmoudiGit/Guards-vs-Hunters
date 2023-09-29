@@ -30,7 +30,6 @@ public class Main extends Application {
         backGroundMusic.play();
     }
 
-
     public static void main(String[] args) {
         launch(args);
     }
